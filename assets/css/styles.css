@@ -1,0 +1,156 @@
+.section1 .inner-head{
+    background-image: linear-gradient(90deg,#F37C1F,#D72F09);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.section1 .inner-main{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.section1 .inner-body{
+    border: 1px solid #bac;
+    border-radius: 0 0 10px 10px;
+    
+}
+.section1 .accordion{
+    padding: 20px;
+}
+.section1 .card{
+    border: 0;
+    
+}
+.section1 .card-header{
+    border: 0;
+    background-color: #fff;
+}
+.section1 .btn{
+    border: 1px solid transparent;
+    color: #F37C1F;
+    text-decoration: none;
+}
+.section1 .btn:focus{
+    box-shadow: none;
+}
+.section1 .collapsed{
+    border: 1px solid #bac;
+    color: black;
+}
+.section1{
+    margin-bottom: 50px;
+}
+
+/* Section 2 */
+.section2{
+    margin-bottom: 50px;
+}
+.section2 .inner-head{
+    height: 100px;
+    background-image: linear-gradient(90deg,#F37C1F,#D72F09);
+    border-radius: 10px 10px 0 0;
+}
+.section2 .inner-head .text1{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.section2 .inner-head .text2{
+    color: #fff;
+    text-align: center;
+}
+.section2 .inner-body{
+    padding: 20px;
+    border: 1px solid #bac;
+    border-radius: 0 0 10px 10px;
+}
+.section2 .inner-body .nut{
+    padding: 10px 20px;
+    background-image: linear-gradient(90deg,#F37C1F,#D72F09);
+    color: #fff;
+    border-radius: 45px;
+    border: none;
+    font-weight: bold;
+}
+.section2 .inner-body .bao_nut{
+    text-align: center;
+}
+.section2 .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #bac;
+}
+/* Section3 */
+body{
+    position: relative;
+}
+.section3 .modal-content{
+    position: absolute;
+    top: 140px;
+}
+.section3 .modal-header{
+    position: relative;
+}
+.section3 .nut-hien-thi{
+    background-image: linear-gradient(90deg,#F37C1F,#D72F09);
+    border-radius: 45px;
+    border: none;
+    margin-bottom: 100px;
+    font-weight: bold;
+    padding: 10px 20px;
+    box-shadow: none;
+    outline: none;
+}
+.section3 img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.section3 .modal-header{
+    flex-direction: column;
+    align-items: center;
+}
+.section3 .modal-title .text1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section3 .modal-title .text2{
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.7;
+}
+.section3 .modal-header .close span{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    background-color: black;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.section3 .modal-header .close span{
+    text-align: center;
+}
+.section3 .form-control{
+    padding-top: 23px;
+    padding-bottom: 23px;
+    box-shadow: none;
+}
+.section3 .form-control:focus{
+    border: 1px solid #ced4da;
+}
+.section3 .nut2{
+    color: #fff;
+    background-image: linear-gradient(90deg,#F37C1F,#D72F09);
+    border-radius: 45px;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+}
